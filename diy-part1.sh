@@ -15,3 +15,6 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+
+#Add ather ipk (by uniessey 2020/12/05) #
+git clone https://github.com/coolsnowwolf/lede/tree/master/package package/package

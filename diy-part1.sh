@@ -17,4 +17,8 @@
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
 #Add ather ipk (by uniessey 2020/12/05) #
-git clone https://github.com/coolsnowwolf/packages/ package/package/
+src-git packages https://github.com/coolsnowwolf/packages
+src-git luci https://github.com/coolsnowwolf/luci
+src-git routing https://git.openwrt.org/feed/routing.git
+src-git telephony https://git.openwrt.org/feed/telephony.git
+src-git freifunk https://github.com/freifunk/openwrt-packages.git
